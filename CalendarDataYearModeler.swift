@@ -8,12 +8,22 @@
 import Foundation
 
 protocol CalendarDataYearModeler {
-//    func toYear() -> CalendarInteractor
+//    func toDay() -> CalendarInteractor
+//    func toMonth() -> CalendarInteractor
 }
 
 class YearModeler: CalendarDataModeler, CalendarDataYearModeler {
+    var interactor: CalendarInteractor
+    
+    required init(_ interactor: CalendarInteractor) {
+        self.interactor = interactor
+    }
+    
     // TODO: Implement converting day or month to year
-//    func toYear() -> CalendarInteractor {
+//    func toDay() -> CalendarInteractor {
+//
+//    }
+//    func toMonth() -> CalendarInteractor {
 //
 //    }
 }

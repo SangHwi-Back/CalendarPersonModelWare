@@ -7,12 +7,9 @@
 
 import Foundation
 
-public class CalendarDataModeler {
-    var interactor: CalendarInteractor
-    
-    init(_ interactor: CalendarInteractor) {
-        self.interactor = interactor
-    }
+public protocol CalendarDataModeler {
+    var interactor: CalendarInteractor { get set }
+    init(_ interactor: CalendarInteractor)
 }
 
 extension CalendarInteractor {
