@@ -11,7 +11,7 @@ public class CalendarInteractor {
     weak public var calendarWare: CalendarWare?
     
     @discardableResult
-    public func emit() -> CalendarDataWrapper? {
+    public func emit(_ type: CalendarEntireResult) -> CalendarDataWrapper? {
         calendarWare?.wrapper
     }
 }

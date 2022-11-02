@@ -6,6 +6,6 @@ class Tests: XCTestCase {
         CalendarWare(Day.self).modeling()
             .asType(.integer)
             .range(from: .past(-10), to: .next(10))
-            .emit()
+            .toModeler(.day)
     }
 }

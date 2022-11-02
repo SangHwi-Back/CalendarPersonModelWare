@@ -23,3 +23,9 @@ public enum CalendarWareIndex {
     case past(Int)
     case next(Int)
 }
+
+public enum CalendarRepresentableType {
+    case day
+    case month
+    case year
+}
