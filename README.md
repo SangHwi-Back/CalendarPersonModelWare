@@ -24,8 +24,6 @@ pod 'CalendarPersonModelWare'
 
 ## Author
 
-sanghwiback@gmail.com, sanghwiback@gmail.com
-
 ## License
 
 CalendarPersonModelWare is available under the MIT license. See the LICENSE file for more info.

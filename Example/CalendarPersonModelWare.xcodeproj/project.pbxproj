@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65A7BC3C9F52222A55C840FE /* Pods-CalendarPersonModelWare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarPersonModelWare_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CalendarPersonModelWare_Tests/Pods-CalendarPersonModelWare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65B363E073C639743075AA51 /* Pods_CalendarPersonModelWare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPersonModelWare_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E6A5F572178309E8D30872F /* CalendarPersonModelWare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CalendarPersonModelWare.podspec; path = ../CalendarPersonModelWare.podspec; sourceTree = "<group>"; };
-		B54F50054B8A64F4AF176F6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BBFAD078169446D8AB6D3002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E6A5F572178309E8D30872F /* CalendarPersonModelWare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CalendarPersonModelWare.podspec; path = ../CalendarPersonModelWare.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B54F50054B8A64F4AF176F6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BBFAD078169446D8AB6D3002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FDAFF2262A661A14EBA45F11 /* Pods_CalendarPersonModelWare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPersonModelWare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				65A7BC3C9F52222A55C840FE /* Pods-CalendarPersonModelWare_Tests.debug.xcconfig */,
 				048DEF048B3D7510226DAB1A /* Pods-CalendarPersonModelWare_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
