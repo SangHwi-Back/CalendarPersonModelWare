@@ -8,13 +8,13 @@
 /// Common Types of Day/Month/Year.
 ///
 /// entireResultType = Concrete type developer want to use.
-public class CalendarDataWrapper {
-    var entireResultType: CalendarEntireResult = .integer
-    var result: [Date] = []
+public protocol CalendarDataWrapper {
+    var entireResultType: CalendarEntireResult { get set }
+    var result: [Date] { get set }
 }
 
 extension CalendarDataWrapper {
-    func setResultType(_ type: CalendarEntireResult) {
+    mutating func setResultType(_ type: CalendarEntireResult) {
         self.entireResultType = type
     }
 }

@@ -9,6 +9,9 @@ import Foundation
 
 /// Represent days. 1,2,3,4,5,6.... or Mon, Tue, Wed, Thu, Fri....
 public class Day: CalendarDataWrapper {
+    public var entireResultType: CalendarEntireResult = .integer
+    public var result: [Date] = []
+    
     convenience init(_ type: CalendarEntireResult) {
         self.init()
         self.entireResultType = type
